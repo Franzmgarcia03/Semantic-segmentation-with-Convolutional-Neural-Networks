@@ -5,7 +5,7 @@ Autonomous cars require strong perception systems. One of the methods to have th
 1. Pedestrians
 2. Road Curb
 3. White lane 
-4. Doble yellow lane
+4. Double yellow lane
 5. Yellow lane
 6. Small vehicles
 7. Medium vehicles
@@ -27,16 +27,61 @@ When the training process ends the following files are generated:
 
 Here are some of the examples of the images for the training set, after setting the required labels:
 
-![Tux, the Linux mascot](/Images/Test1.PNG)
+![Test1](/Images/Test1.PNG)
 
-![Tux, the Linux mascot](/Images/Test_pred.PNG)
+![Test1_predict](/Images/Test_pred.PNG)
 
-![Tux, the Linux mascot](/Images/Test2.PNG)
+![Test2](/Images/Test2.PNG)
 
-![Tux, the Linux mascot](/Images/Test2_pred.PNG)
+![Test2_predict](/Images/Test2_pred.PNG)
 
-Finally, the best results 
+Finally, the best results were the following:
 
+| Classes        | IOU%           |
+| ------------- |:-------------:|
+| Pedestrians      | 76.60 |
+| Road Curb   | 44.31      |
+| White Lane | 32.53      |
+| Double yellow lane      | 63.38 |
+| Yellow lane      | 60.61      |
+| Small vehicles | 37.70      |
+| Medium vehicles      | 74.38 |
+| Big vehicles      | 93.49      |
+| Drivable lane | 88.24      |
+| Alternative lane | 76.27      |
 
+The IOU value, is a relation in between True Positives, False Positives and Falses Negatives, described by the next equation:
 
+![Equation](/Images/equation.PNG)
 
+where:
+
+- TP: True positives
+- FP: False positives
+- FN: False negatives
+
+The real-time testing was implemented using the framework ROS, in the Kinetic version, and rosbag files. The semantic segmentation in real-time looks as the following:
+
+![Test1](/Images/Realtime_test.PNG)
+
+![Test2](/Images/Realtime_test2.PNG)
+
+![Test3](/Images/Realtime_test3.PNG)
+
+![Test4](/Images/Realtime_test4.PNG)
+
+![Test5](/Images/Realtime_test5.PNG)
+
+![Test6](/Images/Realtime_test6.PNG)
+
+![Test7](/Images/Realtime_test7.PNG)
+
+![Test8](/Images/Realtime_test8.PNG)
+
+![Test9](/Images/Realtime_test9.PNG)
+
+![Test10](/Images/Realtime_test10.PNG)
+
+![Test11](/Images/Realtime_test11.PNG)
+
+![Test12](/Images/Realtime_test12.PNG)
