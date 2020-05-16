@@ -1,0 +1,17 @@
+EPOCH IoU on VAL set: 42.72 %
+Per-Class IoU:
+76.69  Person
+43.98  Road Curb
+0.06  Double White full
+31.97  Single White full
+62.38  Double Yellow full
+58.81  Single Yellow full
+0.00  Double White dashed
+0.00  Single White dashed
+0.01  Double Yellow dashed
+0.00  Single Yellow dashed
+37.05  Small Vehicles
+73.99  Medium Vehicles
+94.16  Large Vehicles
+87.07  Current Lanes
+74.58  Parallel Lanes

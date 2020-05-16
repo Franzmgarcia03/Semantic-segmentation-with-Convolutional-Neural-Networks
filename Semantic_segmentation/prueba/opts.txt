@@ -1,0 +1,1 @@
+Namespace(batch_size=8, changelr=False, cuda=True, datadir='/home/lcabrera_usb/franz', height=480, lr=0.0005, model='erfnet', num_epochs=200, preenc=False, resume=False, savedir='prueba', steps_plot=50, visualize=False, width=640)
